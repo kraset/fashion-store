@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="491.0" prefWidth="527.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.FXMLDocumentController">
+    <children>
+        <Button fx:id="btnConnecDisconnect" layoutX="96.0" layoutY="64.0" onAction="#handleButtonConnect" text="Connect" />
+        <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="43.0" layoutY="22.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="218.0" text="Welcome to the Fashion Shop!" textAlignment="CENTER" />
+      <Button fx:id="btnQuit" layoutX="405.0" layoutY="64.0" onAction="#handleButtonQuit" text="Quit" />
+      <TableView fx:id="tableView" layoutX="96.0" layoutY="137.0" prefHeight="253.0" prefWidth="363.0">
+        <columns>
+          <TableColumn fx:id="c1" prefWidth="214.0" text="C1" />
+          <TableColumn fx:id="c2" prefWidth="84.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnShowEmployees" layoutX="176.0" layoutY="64.0" onAction="#handleShowEmployees" text="Show Employees" />
+    </children>
+</AnchorPane>
