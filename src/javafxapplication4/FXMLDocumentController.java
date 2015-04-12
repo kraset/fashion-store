@@ -23,6 +23,7 @@ import javafx.scene.control.TableView;
  */
 public class FXMLDocumentController implements Initializable {
     
+    //A pointless comment.
     @FXML private Label label;
     @FXML private Button btnConnecDisconnect;
     @FXML private Button btnShowEmployees;
